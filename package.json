@@ -2,9 +2,6 @@
   "name": "portfolio_website",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,8 +12,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm run webpack",
-    "webpack": "webpack",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
