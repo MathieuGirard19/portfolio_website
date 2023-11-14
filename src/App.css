@@ -8,9 +8,10 @@
 }
 
 .main {
+  padding-top: 5%;
   height: 95%;
   width: 100%;
-  background-image: url('../public/background.jpg');
+  background-image: url('../public/images/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,9 +41,29 @@
   color: whitesmoke;
 }
 
+/* projects */
+.projects {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.projects-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+}
+
 /* navigation */
 
 nav {
+  z-index: 1;
+  position: fixed;
   height: 5%;
   width: 100%;
   color: #fff;
