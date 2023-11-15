@@ -20,7 +20,7 @@
 
 .main-text-container {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -43,12 +43,11 @@
 
 /* projects */
 .projects {
-  height: 95%;
+  min-height: 95%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: red; */
 }
 
 .projects-container {

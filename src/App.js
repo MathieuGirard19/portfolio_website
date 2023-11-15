@@ -9,32 +9,34 @@ class App extends React.Component {
       {
         name: "Residental Energy Performance Rating",
         img: "energy.jpg",
-        description: "some descriptive text" 
+        description: "My groups capstone project which provides an intuitive and quantitative metric to evaluate the energy efficiency of residential homes.",
+        github: "https://github.com/jsong336/REPR"
       },
       {
         name: "Only You Can Prevent Forest Fires",
         img: "game.jpg",
-        description: "some descriptive text" 
+        description: "A 2D survival platform game where the user has to prevent a forest fire from spreading out of control for as long as possible",
+        github: "https://github.com/jsong336/REPR"
       },
       {
         name: "Chat Room",
         img: "talking.jpg",
-        description: "some descriptive text" 
+        description: "A Chat Room that my group developed as part of our OS class which could handle multiple simulataneous users sending messages at any point in time" 
       },
       {
-        name: "SketchPad",
-        img: "sketch.jpg",
-        description: "some descriptive text" 
+        name: "US Map Game",
+        img: "map.jpg",
+        description: "A simple game that tests the knowledge of users by having them label every US state" 
       },
       {
         name: "Airflow Pipelines",
         img: "pipes.jpg",
-        description: "some descriptive text" 
+        description: "As part of my role I have developed multiple pipelines that automate our workflow" 
       },
       {
         name: "Image Tagging",
         img: "tags.jpg",
-        description: "some descriptive text" 
+        description: "An internal tool that I created that allows users to tag images which will eventually be used to train our models" 
       },
     ]
     return (

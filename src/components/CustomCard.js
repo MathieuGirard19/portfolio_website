@@ -3,12 +3,13 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function CustomCard({name, img, description}) {
   return (
-    <Card sx={{width: 400, marginBottom: 5}}>
+    <Card sx={{width: 400, marginTop: 3, marginBottom: 3}}>
       <CardMedia
         sx={{ height: 200 }}
         image={process.env.PUBLIC_URL + '/images/' + img}
@@ -23,7 +24,9 @@ export default function CustomCard({name, img, description}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Project</Button>
+        <IconButton aria-label="add to favorites">
+          <GitHubIcon fontSize="large" sx={{ color: 'black' }}/>
+        </IconButton>
       </CardActions>
     </Card>
   );
