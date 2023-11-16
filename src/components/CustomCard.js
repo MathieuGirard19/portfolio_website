@@ -7,25 +7,32 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default function CustomCard({name, img, description}) {
+export default function CustomCard({project}) {
   return (
     <Card sx={{width: 400, marginTop: 3, marginBottom: 3}}>
       <CardMedia
         sx={{ height: 200 }}
-        image={process.env.PUBLIC_URL + '/images/' + img}
-        title={name}
+        image={process.env.PUBLIC_URL + '/images/' + project['img']}
+        title={project['name']}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {name}
+          {project['name']}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {description}
+        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          {project['tech'].join(', ')}
+        </Typography>
+        <Typography variant="body1" color="text.primary">
+          {project['description']}
         </Typography>
       </CardContent>
       <CardActions>
         <IconButton aria-label="add to favorites">
-          <GitHubIcon fontSize="large" sx={{ color: 'black' }}/>
+          {project['github'] !== '' &&
+            <a href={project['github']} target="_blank" rel="noopener noreferrer">
+              <GitHubIcon fontSize="large" sx={{ color: 'black' }}/>
+            </a>
+          }
         </IconButton>
       </CardActions>
     </Card>

@@ -85,3 +85,7 @@ nav {
   margin: 0 10px;
   font-size: 22px;
 }
+
+.navbar-container a:hover {
+  color: #cbe995;
+}
