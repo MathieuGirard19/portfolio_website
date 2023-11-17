@@ -17,6 +17,9 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
+            plugins: [
+              '@babel/plugin-proposal-private-property-in-object'
+            ]
           },
         },
       },
@@ -31,7 +34,6 @@ module.exports = {
     ],
   },
   plugins: [
-    '@babel/plugin-proposal-private-property-in-object',
     new CleanWebpackPlugin(), // Cleans the 'dist' directory before each build
     new HtmlWebpackPlugin({
       template: './public/index.html', // HTML template file
