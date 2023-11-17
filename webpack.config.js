@@ -31,6 +31,7 @@ module.exports = {
     ],
   },
   plugins: [
+    '@babel/plugin-proposal-private-property-in-object',
     new CleanWebpackPlugin(), // Cleans the 'dist' directory before each build
     new HtmlWebpackPlugin({
       template: './public/index.html', // HTML template file
