@@ -53,8 +53,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <NavBar />
-        <div className='main'>
-          <div className='main-text-container'>
+        <div id="home" className='home'>
+          <div className='home-text-container'>
             <h1>Mathieu Girard</h1>
             <h2>Software Developer</h2>
             <p>
@@ -64,7 +64,7 @@ class App extends React.Component {
             </p>
           </div>
         </div>
-        <Box className='projects'>
+        <Box id="projects" className='projects'>
           <Grid container spacing={2} sx={{ marginTop: 10, marginBottom: 10, width: "80%"}}>
               {projects.map((project, index) => (
                 <Grid item xs={12} sm={12} md={6} lg={4}>
