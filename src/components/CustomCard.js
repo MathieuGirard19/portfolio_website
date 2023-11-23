@@ -8,7 +8,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function CustomCard({project}) {
   return (
-    <Card sx={{width: 400, marginTop: 3, marginBottom: 3}}>
+    <Card sx={{height: 450, marginTop: 3, marginBottom: 3}}>
       <CardMedia
         sx={{ height: 200 }}
         image={process.env.PUBLIC_URL + '/images/' + project['img']}

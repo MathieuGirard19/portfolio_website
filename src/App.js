@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar' 
 import React from 'react';
 import CustomCard from './components/CustomCard'
+import { Grid, Box } from '@mui/material';
 
 class App extends React.Component {
   render() {
@@ -14,9 +15,9 @@ class App extends React.Component {
         github: "https://github.com/jsong336/REPR"
       },
       {
-        name: "Only You Can Prevent Forest Fires",
+        name: "Only You Can Prevent Forest Fires Game",
         img: "game.jpg",
-        description: "A 2D survival platform game where the user has to prevent a forest fire from spreading out of control for as long as possible",
+        description: "A 2D survival platform game where the user must prevent a forest fire from spreading out of control for as long as many rounds as possible",
         tech: ['Unity', 'C#'],
         github: "https://github.com/jsong336/REPR"
       },
@@ -31,7 +32,7 @@ class App extends React.Component {
         name: "US Map Game",
         img: "map.jpg",
         tech: ['JS', 'JQuery', 'HTML'],
-        description: "A simple game that tests the knowledge of users by having them label every US state",
+        description: "A simple game that tests the knowledge of users by having them label every US state in a random order using a US map visual",
         github: 'https://github.com/MathieuGirard19/map_game'
       },
       {
@@ -63,15 +64,15 @@ class App extends React.Component {
             </p>
           </div>
         </div>
-        <div className='projects'>
-          <div className='projects-container'>
-            {projects.map((project, index) => (
-              <CustomCard 
-                project={project}
-              />
-            ))}
-          </div>
-        </div>
+        <Box className='projects'>
+          <Grid container spacing={2} sx={{ marginTop: 10, marginBottom: 10, width: "80%"}}>
+              {projects.map((project, index) => (
+                <Grid item xs={12} sm={12} md={6} lg={4}>
+                  <CustomCard project={project}/>
+                </Grid>
+              ))}
+          </Grid>
+        </Box>
       </div>
     );
   }
