@@ -14,20 +14,20 @@ h1, h2, h3, h4, p, a {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 68px;
   
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 42px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 21px;
 }
 
 a {
-  font-size: 25px;
+  font-size: 21px;
   text-decoration: none;
 }
 
@@ -39,6 +39,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  filter: brightness(80%);
 }
 
 .home-text-container {
@@ -80,13 +81,6 @@ nav {
   align-items: center;
   height: 40px;
 }
-/* 
-.navbar-container a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 22px;
-} */
 
 .navbar-container a:hover {
   color: #cbe995;
