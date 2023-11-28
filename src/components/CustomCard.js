@@ -11,13 +11,13 @@ import CardActionArea from '@mui/material/CardActionArea';
 export default function CustomCard({project}) {
   return (
     <Card sx={{marginTop: 3, marginBottom: 3}}>
-      <CardActionArea>
+      <CardActionArea href={project['github']}>
         <CardMedia
           sx={{ height: 200 }}
           image={process.env.PUBLIC_URL + '/images/' + project['img']}
           title={project['name']}
         />
-        <CardContent sx = {{ height: 200 }}>
+        <CardContent sx={{ height: 200 }}>
           <Typography gutterBottom variant="h5" component="div">
             {project['name']}
           </Typography>
@@ -28,15 +28,6 @@ export default function CustomCard({project}) {
             {project['description']}
           </Typography>
         </CardContent>
-        {/* <CardActions>
-          <IconButton aria-label="add to favorites">
-            {project['github'] !== '' &&
-              <a href={project['github']} target="_blank" rel="noopener noreferrer">
-                <GitHubIcon fontSize="large" sx={{ color: 'black' }}/>
-              </a>
-            }
-          </IconButton>
-        </CardActions> */}
       </CardActionArea>
     </Card>
   );

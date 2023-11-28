@@ -11,7 +11,7 @@
       "img": "game.jpg",
       "description": "A 2D survival platform game where the user must prevent a forest fire from spreading out of control for as long as many rounds as possible",
       "tech": ["Unity", "C#"],
-      "github": "https://github.com/jsong336/REPR"
+      "github": "https://github.com/ewhanhan/Only-You-Can-Prevent-Forest-Fires-"
     },
     {
       "name": "Chat Room",
