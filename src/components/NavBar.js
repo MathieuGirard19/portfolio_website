@@ -7,7 +7,7 @@ function Navbar() {
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
         <a href="/contact">Contact</a>
-        <a href={process.env.PUBLIC_URL + '/Mathieu Girard Resume.pdf'} download={process.env.PUBLIC_URL + '/Mathieu Girard Resume.pdf'}>Resume</a>
+        <a href={process.env.PUBLIC_URL + '/assets/resume.pdf'} download={'Mathieu Girard Resume.pdf'}>Resume</a>
       </div>
     </nav>
   );
