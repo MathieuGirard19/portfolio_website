@@ -14,7 +14,7 @@ export default function CustomCard({project}) {
       <CardActionArea href={project['github']}>
         <CardMedia
           sx={{ height: 200 }}
-          image={require('../images/' + project['img'])}
+          image={project['img']}
           title={project['name']}
         />
         <CardContent sx={{ height: 200 }}>

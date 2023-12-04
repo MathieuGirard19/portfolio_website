@@ -1,42 +1,42 @@
 [
     {
       "name": "Residental Energy Performance Rating",
-      "img": "energy.jpg",
+      "img": "https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/energy.jpg",
       "description": "My groups capstone project which provides an intuitive and quantitative metric to evaluate the energy efficiency of residential homes.",
       "tech": ["React", "JavaScript", "Python", "HTML"],
       "github": "https://github.com/jsong336/REPR"
     },
     {
       "name": "Only You Can Prevent Forest Fires Game",
-      "img": "game.jpg",
+      "img": "https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/game.jpg",
       "description": "A 2D survival platform game where the user must prevent a forest fire from spreading out of control for as long as many rounds as possible",
       "tech": ["Unity", "C#"],
       "github": "https://github.com/ewhanhan/Only-You-Can-Prevent-Forest-Fires-"
     },
     {
       "name": "Chat Room",
-      "img": "talking.jpg",
+      "img": "https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/talking.jpg",
       "description": "A Chat Room that my group developed as part of our OS class which could handle multiple simultaneous users sending messages at any point in time",
       "tech": ["C++"],
       "github": "https://github.com/MathieuGirard19/ChatRoom"
     },
     {
       "name": "US Map Game",
-      "img": "map.jpg",
+      "img": "https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/map.jpg",
       "tech": ["JS", "JQuery", "HTML"],
       "description": "A simple game that tests the knowledge of users by having them label every US state in a random order using a US map visual",
       "github": "https://github.com/MathieuGirard19/map_game"
     },
     {
       "name": "Airflow Pipelines",
-      "img": "pipes.jpg",
+      "img": "https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/pipes.jpg",
       "tech": ["Python", "Airflow"],
       "description": "As part of my role I have developed multiple pipelines that automate our workflow",
       "github": ""
     },
     {
       "name": "Image Tagging",
-      "img": "tags.jpg",
+      "img": "https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/tags.jpg",
       "description": "An internal tool that I created that allows users to tag images which will eventually be used to train our models",
       "tech": ["Vue", "TypeScript"],
       "github": ""

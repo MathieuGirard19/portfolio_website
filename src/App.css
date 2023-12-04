@@ -34,7 +34,7 @@ a {
 .home {
   padding-top: 5%;
   height: 95%;
-  background-image: url('images/background.jpg');
+  background-image: url('https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
