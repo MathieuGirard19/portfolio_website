@@ -7,7 +7,7 @@ function Navbar() {
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
         <a href="/contact">Contact</a>
-        <a href={require('../assets/resume.pdf')} download={'Mathieu Girard Resume.pdf'}>Resume</a>
+        <a href={'https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/resume.pdf'}>Resume</a>
       </div>
     </nav>
   );
