@@ -34,7 +34,7 @@ a {
 .home {
   padding-top: 5%;
   height: 95%;
-  background-image: url('https://mathieu-girard.s3.us-east-2.amazonaws.com/portfolio-website/background.jpg');
+  background-image: url('/public/assets/test.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,6 +59,41 @@ a {
   min-height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-header {
+  color: black;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+/* contact */
+.contact {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.contact-header {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  width: 500px;
+  margin: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: white;
 }
 
 /* navigation */

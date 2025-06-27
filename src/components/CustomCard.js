@@ -3,10 +3,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
-// import IconButton from '@mui/material/IconButton';
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import CardActions from '@mui/material/CardActions';
-
 
 export default function CustomCard({project}) {
   return (
