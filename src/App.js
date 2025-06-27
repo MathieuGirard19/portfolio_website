@@ -14,15 +14,14 @@ class App extends React.Component {
         <div id="home" className='home'>
           <div className='home-text-container'>
             <h1>Mathieu Girard</h1>
-            <h2>Software Devefloper</h2>
+            <h2>Data Developer</h2>
             <p>
               Welcome, to my portfolio page! 
-              My name is Mat and I am a software engineering new grad beginning my career in software development.
+              My name is Mat and I am a software engineering new grad continuing my career in Data Development.
               I am a highly inquisitive and motivated individual that is always looking to grow as developer.
             </p>
           </div>
         </div>
-        <img src='./public/assets/test.jpg' />
         <Box id="projects" className='projects'>
           <h1 className='project-header'>Projects</h1>
           <Grid container spacing={2} sx={{ marginBottom: 10, width: "80%"}}>
