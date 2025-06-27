@@ -24,7 +24,6 @@
     "serve": "^14.2.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/MathieuGirard19/portfolio_website",
   "scripts": {
     "start": "serve -s build",
     "dev": "react-scripts start",
