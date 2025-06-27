@@ -1,5 +1,4 @@
 {
-  "name": "mathieu-girard.ca",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -33,6 +32,7 @@
     "eject": "react-scripts eject",
     "postinstall": "npm run webpack",
     "webpack": "webpack",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
